@@ -2,7 +2,7 @@
 This is where all of my stuff will go!
 ## Auto Dice Roll Out
 ### Lessons Learned
-
+Basic understanding of python
 ### Code
 
 ## Python Calculator Trial One and Two
