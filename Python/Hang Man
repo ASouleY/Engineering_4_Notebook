@@ -1,0 +1,61 @@
+import time, hat
+
+playerword = input("Player one please Type you word   ")
+print("\n" * 100)
+lives = 7
+playerword[0]
+Guessedletters = list()
+epicwinner = list()
+
+while lives > 0:
+  if lives == 7:
+    print(hat.LevelOne)
+  if lives == 6:
+    print(hat.LevelTwo)
+  if lives == 5:
+    print(hat.LevelThree)
+  if lives == 4:
+    print(hat.LevelFour)
+  if lives == 3:
+    print(hat.LevelFive)
+  if lives == 2:
+    print(hat.LevelSix)
+  if lives == 1:
+    print(hat.LevelSeven)
+  letter = input('Player Two please input a letter   ')
+  if letter.isalpha():
+    
+
+    if letter in Guessedletters:
+        print("Already guessed")
+    else:
+      if letter in playerword:
+        Guessedletters.extend([letter])
+        epicwinner.extend([letter])
+        print("yes")
+        print("The letters you have guessed", Guessedletters)
+      else:
+        print('No')
+        lives = lives - 1
+        
+        Guessedletters.extend([letter])
+        print("The letters you have guessed", Guessedletters)
+
+    sReveal = len(playerword)* "_ " 
+    # if letter_guessed == current letter in word, add that letter else add a _
+    sReveal = " ".join([x if x in Guessedletters else "_" for x in playerword ])
+    print(sReveal)
+    if not "_" in sReveal:
+      print("You Win")
+      time.sleep(10)
+      print("Ok you can leave now")
+      break
+  else:
+    print("Not a Letter try again")
+
+if lives == 0:
+  print("\n" * 100)
+  print(hat.LevelEight)
+  print("You lose")
+  time.sleep(10)
+  print("Go Away Loser")

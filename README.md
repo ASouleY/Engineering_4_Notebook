@@ -15,3 +15,8 @@ https://github.com/sliving03/Engineering_4_Notebook/blob/master/Python/PythonCal
 We learned how to solve and use more complicated math formulas in python.
 ### Code
 https://github.com/sliving03/Engineering_4_Notebook/blob/master/Python/PythonQuadraticSolver.py
+## Hangman
+### Lessons Learned
+we gained knowledge about how to do multi line commenting, How to use the time import, how to extend lists and how to create them, and we leaned how to creat our own imports from out files.
+### Code
+https://github.com/sliving03/Engineering_4_Notebook/blob/master/Python/Hang%20Man
