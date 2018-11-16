@@ -20,3 +20,9 @@ https://github.com/sliving03/Engineering_4_Notebook/blob/master/Python/PythonQua
 we gained knowledge about how to do multi line commenting, How to use the time import, how to extend lists and how to create them, and we leaned how to creat our own imports from out files.
 ### Code
 https://github.com/sliving03/Engineering_4_Notebook/blob/master/Python/Hang%20Man
+## GPIO Pins - Python/Bash LED
+### Lessons Learned
+We learned how to import the gpio pins, how to wire up an LED to a T Cobbler which is connected to our Raspberry pi, and we finnaly pushed to git hub by ourselves.
+### Code
+Bash : https://github.com/sliving03/Engineering_4_Notebook/blob/master/Scripts/helloled.sh
+Python : https://github.com/sliving03/Engineering_4_Notebook/blob/master/Python/pythonhelloled.py
