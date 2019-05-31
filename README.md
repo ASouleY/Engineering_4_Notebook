@@ -64,4 +64,22 @@ We learned how to access the IP adress of our pi and how to connect to out pi us
 We used our PIs IP adress to use it as a webserver and we were able to run code to the computer from our PI
 #### What we Learned
 We learned how to setup flask, hwat it can be used for, and we gained a basic understanding of our PIs connection to the interne t and how that can be used
+#### Code
+https://github.com/ASouleY/Engineering_4_Notebook/blob/master/Python/Flask/hello_world/app.py
 ### GPIO Pins - I2C
+We connected LSM303 and a small lcd screen on to our pi, with which we were able to record data from the accelerometer on our PI which we sent to the LCD screen.
+#### What we Learned
+We learned more about how to connect our PI to more devices, we also learned how to graph data on the oon an LCD screen, and learned how to change the data to measurments of the correct units
+#### Code
+https://github.com/ASouleY/Engineering_4_Notebook/blob/master/Python/i2cCombineProgram.py
+### Headless
+We were able to turn our accelerometer data into a animated graph instead of just numbers
+#### What we Learned
+We learned how to draw shaps on the LCD screen from our PI and how to manipulate said shapes to make an animated image on the screen
+### Pi Camera
+We hooked up the camera to our pi and were able to take pictures and videos, whilst also adding and changing the filters on the camera
+#### What we Learned
+We Learned about what the pi can do when conected to the camera, how to take pictures and videos with it, and how to change the filters
+### Hack Your Stuff
+We made a alarm that went off when the switch was flipped through the Pi it would activate
+#### What we Learned
